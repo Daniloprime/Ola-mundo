@@ -43,3 +43,9 @@ function calcular(){
 
     res.innerHTML = `o Resultado é ${media}`
 }
+
+function entrar(){
+    var entra = document.querySelector('botao')
+
+    addEventListener('onmouseenter').color = 'red' 
+}
