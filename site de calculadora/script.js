@@ -44,11 +44,12 @@ function calcular(){
     res.innerHTML = `o Resultado é ${media}`
 }
 
-var cor = document.getElementById('#botao')
+var a = document.querySelector('#botao')
 
-cor.addEventListener('mouseenter', entrar)
+a.aDDVentListiner('mouseenter', passar)
 
-function entrar(){
-     cor.innerText = 'entrou'
-     cor.style.background = 'blue'    
+function passar(){
+
+     a.style.background-color = 'darkyellow'
+         
 }
