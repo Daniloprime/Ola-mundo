@@ -43,13 +43,3 @@ function calcular(){
 
     res.innerHTML = `o Resultado é ${media}`
 }
-
-var a = document.querySelector('#botao')
-
-a.aDDVentListiner('mouseenter', passar)
-
-function passar(){
-
-     a.style.background-color = 'darkyellow'
-         
-}
